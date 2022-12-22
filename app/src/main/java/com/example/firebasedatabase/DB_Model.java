@@ -3,10 +3,17 @@ package com.example.firebasedatabase;
 public class DB_Model {
     private String name,age;
 
+    //Default Class is needed.
+    public DB_Model(){
+
+    }
+
     public DB_Model(String name, String age) {
         this.name = name;
         this.age = age;
     }
+
+
 
     public String getName() {
         return name;
